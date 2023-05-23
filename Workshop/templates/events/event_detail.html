@@ -1,0 +1,8 @@
+{% extends 'base.html' %} 
+{% block content %}
+    <h1>
+        {{event.Title}}
+        {{event.Description}}
+        <img width="70" src="{{event.ImageEvent.url}}" alt=""/>
+    </h1>
+{% endblock content %}
